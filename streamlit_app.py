@@ -10,7 +10,7 @@ Streamlit web app: explore Bundesbank time series, moments, tests, and ARIMA mod
 **How to run**
     From the project folder::
 
-        streamlit run app.py
+        streamlit run streamlit_app.py
 
 The UI state (e.g. last ARIMA search) lives in ``st.session_state``.
 """
