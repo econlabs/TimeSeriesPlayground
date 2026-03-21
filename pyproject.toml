@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moments-ts-explorer"
+version = "0.1.0"
+description = "Streamlit explorer for Bundesbank time series in data/"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.31",
+    "pandas>=2.0",
+    "plotly>=5.18",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "statsmodels>=0.14",
+]
+
+[project.optional-dependencies]
+dev = ["ruff"]
+
+[tool.setuptools]
+py-modules = ["ts_loader", "ts_models", "ts_tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

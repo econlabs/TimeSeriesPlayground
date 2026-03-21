@@ -1,0 +1,29 @@
+ecb_deposit_facility_rate_eom.xml
+The ECB deposit facility rate is the interest banks earn on overnight deposits with the Eurosystem, quoted in percent per annum at **month-end**. It is a key floor rate in the ECB's operational framework. Use it together with the main refinancing and marginal lending rates to read the policy-rate corridor.
+
+ecb_eur_usd_reference_rate_daily.xml
+This is the **daily** ECB **euro reference exchange rate** against the US dollar (USD per 1 EUR, with the series' unit/scaling as in the metadata). Rates are fixed in the ECB's standard concertation; before 1999 the underlying quote follows Frankfurt spot history as documented by the Bundesbank. It is the standard reference FX series for many applications.
+
+ecb_main_refinancing_rate_eom.xml
+The main refinancing operations (MRO) rate is the ECB's headline policy rate for its main liquidity operations to banks, in **percent per annum** at **month-end**. It sits between the deposit and marginal lending facility rates in the corridor setup. The series reflects official Governing Council levels over time (including changes in operational details).
+
+ecb_marginal_lending_facility_rate_eom.xml
+The marginal lending facility rate is the rate at which banks can obtain **overnight** liquidity from the Eurosystem against collateral, quoted **month-end** in percent per annum. It forms the **upper** bound of the ECB's interest-rate corridor around the MRO rate. It is a standard money-market and policy reference.
+
+eonia_monthly_avg.xml
+**EONIA** was the euro overnight **interbank** index (ECB, act/360, published via Reuters); this series is the **monthly average** of those levels in percent per annum. It measures the weighted average overnight money-market rate before **€STR** replaced EONIA for new contracts. Monthly averages here are Bundesbank calculations on the published daily values.
+
+euribor_12m_monthly_avg.xml
+**EURIBOR** is the benchmark interbank offered rate for euro money markets; this series is the **12-month** tenor as a **monthly average**, percent per annum. Averages are Bundesbank calculations from **EMMI** daily EURIBOR fixings (unweighted means over the month). It is widely used for loans, derivatives, and curve analysis.
+
+euribor_3m_monthly_avg.xml
+**Three-month EURIBOR** is a standard short-term bank funding rate; this file gives **monthly averages** in percent per annum from **EMMI** daily fixings (Bundesbank-calculated monthly means). Precision rules for published levels changed around late 2023 (more decimals in the source). It is the workhorse tenor for floating-rate products and stress testing.
+
+euribor_6m_monthly_avg.xml
+**Six-month EURIBOR** sits between 3M and 12M on the money-market curve; this series is the **monthly average** in percent per annum from **EMMI** daily data. Like other EURIBOR maturities, it reflects panel-bank contributions and licensing/delay rules in the source documentation. Use it for medium-horizon funding and spread analysis.
+
+german_bgb_statutory_base_rate_eom.xml
+This is the German **statutory base rate** under the **BGB (§ 247)** used as a legal reference for default interest and similar claims, quoted **month-end** in percent per annum. It replaced the older DÜG base rate for many federal-law uses from 2002 and adjusts on fixed calendar rules tied to ECB policy. It is **not** a market traded rate but a regulated reference.
+
+german_bund_10y_yield_svensson_month_end.xml
+The series is the **model-based German government bond yield** at a **10-year** residual maturity from the Bundesbank **Svensson** term-structure model on **listed Federal securities**, at **month-end** (percent; see metadata). It smooths prices across bonds and is comparable over time for long-rate and risk-free curve work. The daily counterpart in the source documentation is **WT3229**.

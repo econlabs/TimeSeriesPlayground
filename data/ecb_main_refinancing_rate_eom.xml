@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CompactData xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:genericmetadata="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata" xmlns:registry="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/registry" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:metadatareport="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/metadatareport" xmlns:query="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:utility="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/utility" xmlns:bbk="http://www.bundesbank.de/statistik/zeitreihen/BBKcompact" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+    <Header>
+        <ID>BBIN1_M_D0_ECB_ECBMIN_EUR_ME</ID>
+        <Test>false</Test>
+        <Truncated>false</Truncated>
+        <Prepared>2026-01-30T12:11:28+01:00</Prepared>
+        <Sender>
+            <Name xml:lang="de">Deutsche Bundesbank</Name>
+            <Contact>
+                <Email>presse-information@bundesbank.de</Email>
+            </Contact>
+        </Sender>
+    </Header>
+    <bbk:DataSet datasetID="BBIN1">
+        <bbk:Series FREQ="M" BBK_ID="BBIN1.M.D0.ECB.ECBMIN.EUR.ME" DECIMALS="2" UNIT="% p.a." UNIT_MULT="0" BBK_TITLE="Zinssatz der EZB für Hauptrefinanzierungsgeschäfte / Stand am Monatsende / SU0202" BBK_TITLE_ENG="ECB interest rates for main refinancing operations / End of month / SU0202" BBK_GRAPHPOS="E" BBK_COMM_GEN="Mit Wirkung zum 18. September 2024 wird die Spanne zwischen den Zinssätzen für die Hauptrefinanzierungsgeschäfte und für die Einlagefazilität auf 15 Basispunkte reduziert. Die Spanne zwischen den Zinssätzen für die Spitzenrefinanzierungsfazilität und für die Hauptrefinanzierungsgeschäfte bleibt unverändert bei 25 Basispunkten." BBK_COMM_GEN_ENG="Effective 18 September 2024, the spread between the rate on the main refinancing operations and the deposit facility rate will be reduced to 15 basis points. The spread between the rate on the marginal lending facility and the rate on the main refinancing operations will remain unchanged at 25 basis points.">
+            <bbk:Obs TIME_PERIOD="2026-01" OBS_VALUE="2.15" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.0"/>
+            <bbk:Obs TIME_PERIOD="2025-12" OBS_VALUE="2.15" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.0"/>
+            <bbk:Obs TIME_PERIOD="2025-11" OBS_VALUE="2.15" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.25"/>
+            <bbk:Obs TIME_PERIOD="2025-10" OBS_VALUE="2.15" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.25"/>
+            <bbk:Obs TIME_PERIOD="2025-09" OBS_VALUE="2.15" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.5"/>
+            <bbk:Obs TIME_PERIOD="2025-08" OBS_VALUE="2.15" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-2.1"/>
+            <bbk:Obs TIME_PERIOD="2025-07" OBS_VALUE="2.15" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-2.1"/>
+            <bbk:Obs TIME_PERIOD="2025-06" OBS_VALUE="2.15" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="-2.1" BBK_COMM_OBS="Festsatz ab 11. Juni 2025 2,15 % (Beschluss des EZB-Rates vom 5. Juni 2025)" BBK_COMM_OBS_ENG="Fixed rate from 11 June 2025 2.15 % (decision of the Governing Council of the ECB from 5 June 2025)"/>
+            <bbk:Obs TIME_PERIOD="2025-05" OBS_VALUE="2.4" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-2.1"/>
+            <bbk:Obs TIME_PERIOD="2025-04" OBS_VALUE="2.4" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="-2.1" BBK_COMM_OBS="Festsatz ab 23. April 2025 2,40% (Beschluss des EZB-Rates vom 17. April 2025)" BBK_COMM_OBS_ENG="Fixed rate from 23 April 2025 2.40% (decision of the Governing Council of the ECB from 17 April 2025)"/>
+            <bbk:Obs TIME_PERIOD="2025-03" OBS_VALUE="2.65" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="-1.85" BBK_COMM_OBS="Festsatz ab 12. März 2025 2,65% (Beschluss des EZB-Rates vom 6. März 2025)" BBK_COMM_OBS_ENG="Fixed rate from 12 March 2025 2.65% (decision of the Governing Council of the ECB from 6 March 2025)"/>
+            <bbk:Obs TIME_PERIOD="2025-02" OBS_VALUE="2.9" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="-1.6" BBK_COMM_OBS="Festsatz ab 5. Februar 2025 2,90% (Beschluss des EZB-Rates vom 30. Januar 2025)" BBK_COMM_OBS_ENG="Fixed rate from 5 February 2025 2.90% (decision of the Governing Council of the ECB from 30 January 2025)"/>
+            <bbk:Obs TIME_PERIOD="2025-01" OBS_VALUE="3.15" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.35"/>
+            <bbk:Obs TIME_PERIOD="2024-12" OBS_VALUE="3.15" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="-1.35" BBK_COMM_OBS="Festsatz ab 18. Dezember 2024 3,15% (Beschluss des EZB-Rates vom 12. Dezember 2024)" BBK_COMM_OBS_ENG="Fixed rate from 18 December 2024 3.15% (decision of the Governing Council of the ECB from 12 December 2024)"/>
+            <bbk:Obs TIME_PERIOD="2024-11" OBS_VALUE="3.4" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.1"/>
+            <bbk:Obs TIME_PERIOD="2024-10" OBS_VALUE="3.4" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="-1.1" BBK_COMM_OBS="Festsatz ab 23. Oktober 2024 3,40% (Beschluss des EZB-Rates vom 17. Oktober 2024)" BBK_COMM_OBS_ENG="Fixed rate from 23 October 2024 3.40% (decision of the Governing Council of the ECB from 17 October 2024)"/>
+            <bbk:Obs TIME_PERIOD="2024-09" OBS_VALUE="3.65" BBK_DIFF_A="-0.6" BBK_DIFF_Y_A="-0.85" BBK_COMM_OBS="Festsatz ab 18. September 2024 3,65% (Beschluss des EZB-Rates vom 12. September 2024)" BBK_COMM_OBS_ENG="Fixed rate from 18 September 2024 3.65% (decision of the Governing Council of the ECB from 12 September 2024)"/>
+            <bbk:Obs TIME_PERIOD="2024-08" OBS_VALUE="4.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2024-07" OBS_VALUE="4.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.25"/>
+            <bbk:Obs TIME_PERIOD="2024-06" OBS_VALUE="4.25" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="0.25" BBK_COMM_OBS="Festsatz ab 12. Juni 2024 4,25% (Beschluss des EZB-Rates vom 6. Juni 2024)" BBK_COMM_OBS_ENG="Fixed rate from 12 June 2024 4.25% (decision of the Governing Council of the ECB from 6 June 2024)"/>
+            <bbk:Obs TIME_PERIOD="2024-05" OBS_VALUE="4.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.75"/>
+            <bbk:Obs TIME_PERIOD="2024-04" OBS_VALUE="4.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.0"/>
+            <bbk:Obs TIME_PERIOD="2024-03" OBS_VALUE="4.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.0"/>
+            <bbk:Obs TIME_PERIOD="2024-02" OBS_VALUE="4.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.5"/>
+            <bbk:Obs TIME_PERIOD="2024-01" OBS_VALUE="4.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="2.0"/>
+            <bbk:Obs TIME_PERIOD="2023-12" OBS_VALUE="4.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="2.0"/>
+            <bbk:Obs TIME_PERIOD="2023-11" OBS_VALUE="4.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="2.5"/>
+            <bbk:Obs TIME_PERIOD="2023-10" OBS_VALUE="4.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="3.25"/>
+            <bbk:Obs TIME_PERIOD="2023-09" OBS_VALUE="4.5" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="3.25" BBK_COMM_OBS="Festsatz ab 20. September 2023 4,50% (Beschluss des EZB-Rates vom 14. September 2023)" BBK_COMM_OBS_ENG="Fixed rate from 20 September 2023 4.50% (decision of the Governing Council of the ECB from 14 September 2023)"/>
+            <bbk:Obs TIME_PERIOD="2023-08" OBS_VALUE="4.25" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="3.75" BBK_COMM_OBS="Festsatz ab 2. August 2023 4,25% (Beschluss des EZB-Rates vom 27. Juli 2023)" BBK_COMM_OBS_ENG="Fixed rate from 2 August 2023 4.25% (decision of the Governing Council of the ECB from 27 July 2023)"/>
+            <bbk:Obs TIME_PERIOD="2023-07" OBS_VALUE="4.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="3.5"/>
+            <bbk:Obs TIME_PERIOD="2023-06" OBS_VALUE="4.0" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="4.0" BBK_COMM_OBS="Festsatz ab 21. Juni 2023 4,00% (Beschluss des EZB-Rates vom 15. Juni 2023)" BBK_COMM_OBS_ENG="Fixed rate from 21 June 2023 4.00% (decision of the Governing Council of the ECB from 15 June 2023)"/>
+            <bbk:Obs TIME_PERIOD="2023-05" OBS_VALUE="3.75" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="3.75" BBK_COMM_OBS="Festsatz ab 10. Mai 2023 3,75% (Beschluss des EZB-Rates vom 4. Mai 2023)" BBK_COMM_OBS_ENG="Fixed rate from 10 May 2023 3.75% (decision of the Governing Council of the ECB from 4 May 2023)"/>
+            <bbk:Obs TIME_PERIOD="2023-04" OBS_VALUE="3.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="3.5"/>
+            <bbk:Obs TIME_PERIOD="2023-03" OBS_VALUE="3.5" BBK_DIFF_A="0.5" BBK_DIFF_Y_A="3.5" BBK_COMM_OBS="Festsatz ab 22. März 2023 3,50% (Beschluss des EZB-Rates vom 16. März 2023)" BBK_COMM_OBS_ENG="Fixed rate from 22 March 2023 3.50% (decision of the Governing Council of the ECB from 16 March 2023)"/>
+            <bbk:Obs TIME_PERIOD="2023-02" OBS_VALUE="3.0" BBK_DIFF_A="0.5" BBK_DIFF_Y_A="3.0" BBK_COMM_OBS="Festsatz ab 8. Februar 2023 3,00% (Beschluss des EZB-Rates vom 2. Februar 2023)" BBK_COMM_OBS_ENG="Fixed rate from 8 February 2023 3.00% (decision of the Governing Council of the ECB from 2 February 2023)"/>
+            <bbk:Obs TIME_PERIOD="2023-01" OBS_VALUE="2.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="2.5"/>
+            <bbk:Obs TIME_PERIOD="2022-12" OBS_VALUE="2.5" BBK_DIFF_A="0.5" BBK_DIFF_Y_A="2.5" BBK_COMM_OBS="Festsatz ab 21. Dezember 2022 2,50% (Beschluss des EZB-Rates vom 15. Dezember 2022)" BBK_COMM_OBS_ENG="Fixed rate from 21 December 2022 2.50% (decision of the Governing Council of the ECB from 15 December 2022)"/>
+            <bbk:Obs TIME_PERIOD="2022-11" OBS_VALUE="2.0" BBK_DIFF_A="0.75" BBK_DIFF_Y_A="2.0" BBK_COMM_OBS="Festsatz ab 2. November 2022 2,00% (Beschluss des EZB-Rates vom 27. October 2022)" BBK_COMM_OBS_ENG="Fixed rate from 2 November 2022 2.00 % (decision of the Governing Council of the ECB from 27 Oktober 2022)"/>
+            <bbk:Obs TIME_PERIOD="2022-10" OBS_VALUE="1.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.25"/>
+            <bbk:Obs TIME_PERIOD="2022-09" OBS_VALUE="1.25" BBK_DIFF_A="0.75" BBK_DIFF_Y_A="1.25" BBK_COMM_OBS="Festsatz ab 14. September 2022 1,25% (Beschluss des EZB-Rates vom 8. September 2022)" BBK_COMM_OBS_ENG="Fixed rate from 14 September 2022 1.25% (decision of the Governing Council of the ECB from 8 September 2022)"/>
+            <bbk:Obs TIME_PERIOD="2022-08" OBS_VALUE="0.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.5"/>
+            <bbk:Obs TIME_PERIOD="2022-07" OBS_VALUE="0.5" BBK_DIFF_A="0.5" BBK_DIFF_Y_A="0.5" BBK_COMM_OBS="Festsatz ab 27. Juli 2022 0,50% (Beschluss des EZB-Rates vom 21. Juli 2022)" BBK_COMM_OBS_ENG="Fixed rate from 27 July 2022 0.50% (decision of the Governing Council of the ECB from 21 July 2022)"/>
+            <bbk:Obs TIME_PERIOD="2022-06" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2022-05" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2022-04" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2022-03" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2022-02" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2022-01" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2021-12" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2021-11" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2021-10" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2021-09" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2021-08" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2021-07" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2021-06" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2021-05" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2021-04" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2021-03" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2021-02" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2021-01" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2020-12" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2020-11" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2020-10" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2020-09" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2020-08" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2020-07" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2020-06" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2020-05" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2020-04" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2020-03" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2020-02" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2020-01" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2019-12" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2019-11" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2019-10" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2019-09" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2019-08" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2019-07" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2019-06" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2019-05" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2019-04" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2019-03" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2019-02" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2019-01" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2018-12" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2018-11" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2018-10" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2018-09" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2018-08" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2018-07" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2018-06" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2018-05" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2018-04" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2018-03" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2018-02" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2018-01" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2017-12" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2017-11" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2017-10" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2017-09" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2017-08" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2017-07" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2017-06" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2017-05" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2017-04" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2017-03" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2017-02" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.05"/>
+            <bbk:Obs TIME_PERIOD="2017-01" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.05"/>
+            <bbk:Obs TIME_PERIOD="2016-12" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.05"/>
+            <bbk:Obs TIME_PERIOD="2016-11" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.05"/>
+            <bbk:Obs TIME_PERIOD="2016-10" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.05"/>
+            <bbk:Obs TIME_PERIOD="2016-09" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.05"/>
+            <bbk:Obs TIME_PERIOD="2016-08" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.05"/>
+            <bbk:Obs TIME_PERIOD="2016-07" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.05"/>
+            <bbk:Obs TIME_PERIOD="2016-06" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.05"/>
+            <bbk:Obs TIME_PERIOD="2016-05" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.05"/>
+            <bbk:Obs TIME_PERIOD="2016-04" OBS_VALUE="0.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.05"/>
+            <bbk:Obs TIME_PERIOD="2016-03" OBS_VALUE="0.0" BBK_DIFF_A="-0.05" BBK_DIFF_Y_A="-0.05" BBK_COMM_OBS="Festsatz ab 16. März. 2016 0,00 % (Beschluss des EZB-Rates vom 10. März 2016)" BBK_COMM_OBS_ENG="Fixed rate from 16 March 2016 0.00% (decision of the Governing Council of the ECB from 10 March 2016)"/>
+            <bbk:Obs TIME_PERIOD="2016-02" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2016-01" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2015-12" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2015-11" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2015-10" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2015-09" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2015-08" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.1"/>
+            <bbk:Obs TIME_PERIOD="2015-07" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.1"/>
+            <bbk:Obs TIME_PERIOD="2015-06" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.1"/>
+            <bbk:Obs TIME_PERIOD="2015-05" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.2"/>
+            <bbk:Obs TIME_PERIOD="2015-04" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.2"/>
+            <bbk:Obs TIME_PERIOD="2015-03" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.2"/>
+            <bbk:Obs TIME_PERIOD="2015-02" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.2"/>
+            <bbk:Obs TIME_PERIOD="2015-01" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.2"/>
+            <bbk:Obs TIME_PERIOD="2014-12" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.2"/>
+            <bbk:Obs TIME_PERIOD="2014-11" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.2"/>
+            <bbk:Obs TIME_PERIOD="2014-10" OBS_VALUE="0.05" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.45"/>
+            <bbk:Obs TIME_PERIOD="2014-09" OBS_VALUE="0.05" BBK_DIFF_A="-0.1" BBK_DIFF_Y_A="-0.45" BBK_COMM_OBS="Festsatz ab 10. Sept. 2014 0,05 % (Beschluss des EZB-Rates vom 4. Sept. 2014)" BBK_COMM_OBS_ENG="Fixed rate from 10 September 2014 0.05% (decision of the Governing Council of the ECB from 4 September 2014)"/>
+            <bbk:Obs TIME_PERIOD="2014-08" OBS_VALUE="0.15" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.35"/>
+            <bbk:Obs TIME_PERIOD="2014-07" OBS_VALUE="0.15" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.35"/>
+            <bbk:Obs TIME_PERIOD="2014-06" OBS_VALUE="0.15" BBK_DIFF_A="-0.1" BBK_DIFF_Y_A="-0.35" BBK_COMM_OBS="Festsatz ab 11. Juni 2014 0,15 % (Beschluss des EZB-Rates vom 5. Juni 2014)" BBK_COMM_OBS_ENG="Fixed rate from 11 June 2014 0.15% (decision of the Governing Council of the ECB from 5 June 2014)"/>
+            <bbk:Obs TIME_PERIOD="2014-05" OBS_VALUE="0.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2014-04" OBS_VALUE="0.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2014-03" OBS_VALUE="0.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2014-02" OBS_VALUE="0.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2014-01" OBS_VALUE="0.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2013-12" OBS_VALUE="0.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2013-11" OBS_VALUE="0.25" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="-0.5" BBK_COMM_OBS="Festsatz ab 13. Nov. 2013 0,25 % (Beschluss des EZB-Rates vom 7. Nov. 2013)" BBK_COMM_OBS_ENG="Fixed rate from 13 November 2013 0.25% (decision of the Governing Council of the ECB from 7 November 2013)"/>
+            <bbk:Obs TIME_PERIOD="2013-10" OBS_VALUE="0.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2013-09" OBS_VALUE="0.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2013-08" OBS_VALUE="0.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2013-07" OBS_VALUE="0.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2013-06" OBS_VALUE="0.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2013-05" OBS_VALUE="0.5" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="-0.5" BBK_COMM_OBS="Festsatz ab 8. Mai 2013 0,50 % (Beschluss des EZB-Rates vom 2. Mai 2013)" BBK_COMM_OBS_ENG="Fixed rate from 8 May 2013 0.50% (decision of the Governing Council of the ECB from 2 May 2013)"/>
+            <bbk:Obs TIME_PERIOD="2013-04" OBS_VALUE="0.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2013-03" OBS_VALUE="0.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2013-02" OBS_VALUE="0.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2013-01" OBS_VALUE="0.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2012-12" OBS_VALUE="0.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2012-11" OBS_VALUE="0.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2012-10" OBS_VALUE="0.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.75"/>
+            <bbk:Obs TIME_PERIOD="2012-09" OBS_VALUE="0.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.75"/>
+            <bbk:Obs TIME_PERIOD="2012-08" OBS_VALUE="0.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.75"/>
+            <bbk:Obs TIME_PERIOD="2012-07" OBS_VALUE="0.75" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="-0.75" BBK_COMM_OBS="Festsatz ab 11. Juli 2012 0,75 % (Beschluss des EZB-Rates vom 5. Juli 2012)" BBK_COMM_OBS_ENG="Fixed rate from 11 July 2012 0.75% (decision of the Governing Council of the ECB from 5 July 2012)"/>
+            <bbk:Obs TIME_PERIOD="2012-06" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2012-05" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2012-04" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2012-03" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2012-02" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2012-01" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2011-12" OBS_VALUE="1.0" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="0.0" BBK_COMM_OBS="Festsatz ab 14. Dez. 2011 1,00 % (Beschluss des EZB-Rates vom 8. Dez. 2011)" BBK_COMM_OBS_ENG="Fixed rate from 14 December 2011 1.00% (decision of the Governing Council of the ECB from 8 December 2011)"/>
+            <bbk:Obs TIME_PERIOD="2011-11" OBS_VALUE="1.25" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="0.25" BBK_COMM_OBS="Festsatz ab 9. Nov. 2011 1,25 % (Beschluss des EZB-Rates vom 3. Nov. 2011)" BBK_COMM_OBS_ENG="Fixed rate from 9 November 2011 1.25% (decision of the Governing Council of the ECB from 3 November 2011)"/>
+            <bbk:Obs TIME_PERIOD="2011-10" OBS_VALUE="1.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.5"/>
+            <bbk:Obs TIME_PERIOD="2011-09" OBS_VALUE="1.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.5"/>
+            <bbk:Obs TIME_PERIOD="2011-08" OBS_VALUE="1.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.5"/>
+            <bbk:Obs TIME_PERIOD="2011-07" OBS_VALUE="1.5" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="0.5" BBK_COMM_OBS="Festsatz ab 13. Juli 2011 1,50 % (Beschluss des EZB-Rates vom 7. Juli 2011)" BBK_COMM_OBS_ENG="Fixed rate from 13 July 2011 1.50% (decision of the Governing Council of the ECB from 7 July 2011)"/>
+            <bbk:Obs TIME_PERIOD="2011-06" OBS_VALUE="1.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.25"/>
+            <bbk:Obs TIME_PERIOD="2011-05" OBS_VALUE="1.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.25"/>
+            <bbk:Obs TIME_PERIOD="2011-04" OBS_VALUE="1.25" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="0.25" BBK_COMM_OBS="Festsatz ab 13. April 2011 1,25 % (Beschluss des EZB-Rates vom 7. April 2011)" BBK_COMM_OBS_ENG="Fixed rate from 13 April 2011 1.25% (decision of the Governing Council of the ECB from 7 April 2011)"/>
+            <bbk:Obs TIME_PERIOD="2011-03" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2011-02" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2011-01" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2010-12" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2010-11" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2010-10" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2010-09" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2010-08" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2010-07" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2010-06" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2010-05" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2010-04" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.25"/>
+            <bbk:Obs TIME_PERIOD="2010-03" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2010-02" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.0"/>
+            <bbk:Obs TIME_PERIOD="2010-01" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.0"/>
+            <bbk:Obs TIME_PERIOD="2009-12" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.5"/>
+            <bbk:Obs TIME_PERIOD="2009-11" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-2.25"/>
+            <bbk:Obs TIME_PERIOD="2009-10" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-2.75"/>
+            <bbk:Obs TIME_PERIOD="2009-09" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-3.25"/>
+            <bbk:Obs TIME_PERIOD="2009-08" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-3.25"/>
+            <bbk:Obs TIME_PERIOD="2009-07" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-3.25"/>
+            <bbk:Obs TIME_PERIOD="2009-06" OBS_VALUE="1.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-3.0"/>
+            <bbk:Obs TIME_PERIOD="2009-05" OBS_VALUE="1.0" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="-3.0" BBK_COMM_OBS="Festsatz ab 13. Mai 2009 1,00 % (Beschluss des EZB-Rates vom 7. Mai 2009)" BBK_COMM_OBS_ENG="Fixed rate from 13 May 2009 1.00% (decision of the Governing Council of the ECB from 7 May 2009)"/>
+            <bbk:Obs TIME_PERIOD="2009-04" OBS_VALUE="1.25" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="-2.75" BBK_COMM_OBS="Festsatz ab 8. April 2009 1,25 % (Beschluss des EZB-Rates vom 2. April 2009)" BBK_COMM_OBS_ENG="Fixed rate from 8 April 2009 1.25% (decision of the Governing Council of the ECB from 2 April 2009)"/>
+            <bbk:Obs TIME_PERIOD="2009-03" OBS_VALUE="1.5" BBK_DIFF_A="-0.5" BBK_DIFF_Y_A="-2.5" BBK_COMM_OBS="Festsatz ab 11. März 2009 1,50 % (Beschluss des EZB-Rates vom 5. März 2009)" BBK_COMM_OBS_ENG="Fixed rate from 11 March 2009 1.50% (decision of the Governing Council of the ECB from 5 March 2009)"/>
+            <bbk:Obs TIME_PERIOD="2009-02" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-2.0"/>
+            <bbk:Obs TIME_PERIOD="2009-01" OBS_VALUE="2.0" BBK_DIFF_A="-0.5" BBK_DIFF_Y_A="-2.0" BBK_COMM_OBS="Festsatz ab 21. Jan. 2009 2,00 % (Beschluss des EZB-Rates vom 15. Jan. 2009)" BBK_COMM_OBS_ENG="Fixed rate from 21 January 2009 2.00% (decision of the Governing Council of the ECB from 15 January 2009)"/>
+            <bbk:Obs TIME_PERIOD="2008-12" OBS_VALUE="2.5" BBK_DIFF_A="-0.75" BBK_DIFF_Y_A="-1.5" BBK_COMM_OBS="Festsatz ab 10. Dez. 2008 2,50 % (Beschluss des EZB-Rates vom 4. Dez. 2008)" BBK_COMM_OBS_ENG="Fixed rate from 10 December 2008 2.50% (decision of the Governing Council of the ECB from 4 December 2008)"/>
+            <bbk:Obs TIME_PERIOD="2008-11" OBS_VALUE="3.25" BBK_DIFF_A="-0.5" BBK_DIFF_Y_A="-0.75" BBK_COMM_OBS="Mindestbietungssatz / Festsatz ab 12. Nov. 2008 3,25 % (Beschluss des EZB-Rates vom 6. Nov. 2008)" BBK_COMM_OBS_ENG="Minimum bid rate / Fixed rate from 12 November 2008 3.25% (decision of the Governing Council of the ECB from 6 November 2008)"/>
+            <bbk:Obs TIME_PERIOD="2008-10" OBS_VALUE="3.75" BBK_DIFF_A="-0.5" BBK_DIFF_Y_A="-0.25" BBK_COMM_OBS="Mindestbietungssatz / Festsatz ab 15. Okt. 2008 3,75 % (Telekonferenzen des EZB-Rates vom 8. Okt. 2008)" BBK_COMM_OBS_ENG="Minimum bid rate / Fixed rate from 15 October 2008 3.75% (decisions of the Governing Council of the ECB from 8 October 2008 by means of teleconferencing)"/>
+            <bbk:Obs TIME_PERIOD="2008-09" OBS_VALUE="4.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.25"/>
+            <bbk:Obs TIME_PERIOD="2008-08" OBS_VALUE="4.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.25"/>
+            <bbk:Obs TIME_PERIOD="2008-07" OBS_VALUE="4.25" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="0.25" BBK_COMM_OBS="Mindestbietungssatz ab 9. Juli 2008 4,25 % (Beschluss des EZB-Rates vom 3. Juli 2008)" BBK_COMM_OBS_ENG="Minimum bid rate from 9 July 2008 4.25% (decision of the Governing Council of the ECB from 3 July 2008)"/>
+            <bbk:Obs TIME_PERIOD="2008-06" OBS_VALUE="4.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2008-05" OBS_VALUE="4.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.25"/>
+            <bbk:Obs TIME_PERIOD="2008-04" OBS_VALUE="4.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.25"/>
+            <bbk:Obs TIME_PERIOD="2008-03" OBS_VALUE="4.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.25"/>
+            <bbk:Obs TIME_PERIOD="2008-02" OBS_VALUE="4.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.5"/>
+            <bbk:Obs TIME_PERIOD="2008-01" OBS_VALUE="4.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.5"/>
+            <bbk:Obs TIME_PERIOD="2007-12" OBS_VALUE="4.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.5"/>
+            <bbk:Obs TIME_PERIOD="2007-11" OBS_VALUE="4.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.75"/>
+            <bbk:Obs TIME_PERIOD="2007-10" OBS_VALUE="4.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.75"/>
+            <bbk:Obs TIME_PERIOD="2007-09" OBS_VALUE="4.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.0"/>
+            <bbk:Obs TIME_PERIOD="2007-08" OBS_VALUE="4.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.0"/>
+            <bbk:Obs TIME_PERIOD="2007-07" OBS_VALUE="4.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.25"/>
+            <bbk:Obs TIME_PERIOD="2007-06" OBS_VALUE="4.0" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="1.25" BBK_COMM_OBS="Mindestbietungssatz ab 13. Juni 2007 4,00 % (Beschluss des EZB-Rates vom 6. Juni 2007)" BBK_COMM_OBS_ENG="Minimum bid rate from 13 June 2007 4.00% (decision of the Governing Council of the ECB from 6 June 2007)"/>
+            <bbk:Obs TIME_PERIOD="2007-05" OBS_VALUE="3.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.25"/>
+            <bbk:Obs TIME_PERIOD="2007-04" OBS_VALUE="3.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.25"/>
+            <bbk:Obs TIME_PERIOD="2007-03" OBS_VALUE="3.75" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="1.25" BBK_COMM_OBS="Mindestbietungssatz ab 14. März 2007 3,75 % (Beschluss des EZB-Rates vom 8. März 2007)" BBK_COMM_OBS_ENG="Minimum bid rate from 14 March 2007 3.75% (decision of the Governing Council of the ECB from 8 March 2007)"/>
+            <bbk:Obs TIME_PERIOD="2007-02" OBS_VALUE="3.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.25"/>
+            <bbk:Obs TIME_PERIOD="2007-01" OBS_VALUE="3.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.25"/>
+            <bbk:Obs TIME_PERIOD="2006-12" OBS_VALUE="3.5" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="1.25" BBK_COMM_OBS="Mindestbietungssatz ab 13. Dez. 2006 3,50 % (Beschluss des EZB-Rates vom 7. Dez. 2006)" BBK_COMM_OBS_ENG="Minimum bid rate from 13 December 2006 3.50% (decision of the Governing Council of the ECB from 7 December 2006)"/>
+            <bbk:Obs TIME_PERIOD="2006-11" OBS_VALUE="3.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.25"/>
+            <bbk:Obs TIME_PERIOD="2006-10" OBS_VALUE="3.25" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="1.25" BBK_COMM_OBS="Mindestbietungssatz ab 11. Okt. 2006 3,25 % (Beschluss des EZB-Rates vom 5. Okt. 2006)" BBK_COMM_OBS_ENG="Minimum bid rate from 11 October 2006 3.25% (decision of the Governing Council of the ECB from 5 October 2006)"/>
+            <bbk:Obs TIME_PERIOD="2006-09" OBS_VALUE="3.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.0"/>
+            <bbk:Obs TIME_PERIOD="2006-08" OBS_VALUE="3.0" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="1.0" BBK_COMM_OBS="Mindestbietungssatz ab 9. Aug. 2006 3,00 % (Beschluss des EZB-Rates vom 3. Aug. 2006)" BBK_COMM_OBS_ENG="Minimum bid rate from 9 August 2006 3.00% (decision of the Governing Council of the ECB from 3 August 2006)"/>
+            <bbk:Obs TIME_PERIOD="2006-07" OBS_VALUE="2.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.75"/>
+            <bbk:Obs TIME_PERIOD="2006-06" OBS_VALUE="2.75" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="0.75" BBK_COMM_OBS="Mindestbietungssatz ab 15. Juni 2006 2,75 % (Beschluss des EZB-Rates vom 8. Juni 2006)" BBK_COMM_OBS_ENG="Minimum bid rate from 15 June 2006 2.75% (decision of the Governing Council of the ECB from 8 June 2006)"/>
+            <bbk:Obs TIME_PERIOD="2006-05" OBS_VALUE="2.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.5"/>
+            <bbk:Obs TIME_PERIOD="2006-04" OBS_VALUE="2.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.5"/>
+            <bbk:Obs TIME_PERIOD="2006-03" OBS_VALUE="2.5" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="0.5" BBK_COMM_OBS="Mindestbietungssatz ab 8. März 2006 2,50 % (Beschluss des EZB-Rates vom 2. März 2006)" BBK_COMM_OBS_ENG="Minimum bid rate from 8 March 2006 2,50% (decision of the Governing Council of the ECB from 2 March 2006)"/>
+            <bbk:Obs TIME_PERIOD="2006-02" OBS_VALUE="2.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.25"/>
+            <bbk:Obs TIME_PERIOD="2006-01" OBS_VALUE="2.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.25"/>
+            <bbk:Obs TIME_PERIOD="2005-12" OBS_VALUE="2.25" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="0.25" BBK_COMM_OBS="Mindestbietungssatz ab 6. Dez. 2005 2,25 % (Beschluss des EZB-Rates vom 1. Dez. 2005)" BBK_COMM_OBS_ENG="Minimum bid rate from 6 December 2005 2.25% (decision of the Governing Council of the ECB from 1 December 2005)"/>
+            <bbk:Obs TIME_PERIOD="2005-11" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2005-10" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2005-09" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2005-08" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2005-07" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2005-06" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2005-05" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2005-04" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2005-03" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2005-02" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2005-01" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2004-12" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2004-11" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2004-10" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2004-09" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2004-08" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2004-07" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2004-06" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2004-05" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2004-04" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2004-03" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2004-02" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.75"/>
+            <bbk:Obs TIME_PERIOD="2004-01" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.75"/>
+            <bbk:Obs TIME_PERIOD="2003-12" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.75"/>
+            <bbk:Obs TIME_PERIOD="2003-11" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.25"/>
+            <bbk:Obs TIME_PERIOD="2003-10" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.25"/>
+            <bbk:Obs TIME_PERIOD="2003-09" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.25"/>
+            <bbk:Obs TIME_PERIOD="2003-08" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.25"/>
+            <bbk:Obs TIME_PERIOD="2003-07" OBS_VALUE="2.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.25"/>
+            <bbk:Obs TIME_PERIOD="2003-06" OBS_VALUE="2.0" BBK_DIFF_A="-0.5" BBK_DIFF_Y_A="-1.25" BBK_COMM_OBS="Mindestbietungssatz ab 9. Juni 2003 2,00 % (Beschluss des EZB-Rates vom 5. Juni 2003)" BBK_COMM_OBS_ENG="Minimum bid rate from 9 June 2003 2.00% (decision of the Governing Council of the ECB from 5 June 2003)"/>
+            <bbk:Obs TIME_PERIOD="2003-05" OBS_VALUE="2.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.75"/>
+            <bbk:Obs TIME_PERIOD="2003-04" OBS_VALUE="2.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.75"/>
+            <bbk:Obs TIME_PERIOD="2003-03" OBS_VALUE="2.5" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="-0.75" BBK_COMM_OBS="Mindestbietungssatz ab 12. März 2003 2,50 % (Beschluss des EZB-Rates vom 6. März 2003)" BBK_COMM_OBS_ENG="Minimum bid rate from 12 March 2003 2.50% (decision of the Governing Council of the ECB from 6 March 2003)"/>
+            <bbk:Obs TIME_PERIOD="2003-02" OBS_VALUE="2.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2003-01" OBS_VALUE="2.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2002-12" OBS_VALUE="2.75" BBK_DIFF_A="-0.5" BBK_DIFF_Y_A="-0.5" BBK_COMM_OBS="Mindestbietungssatz ab 11. Dez. 2002 2,75 % (Beschluss des EZB-Rates vom 5. Dez. 2002)" BBK_COMM_OBS_ENG="Minimum bid rate from 11 December 2002 2.75% (decision of the Governing Council of the ECB from 5 December 2002)"/>
+            <bbk:Obs TIME_PERIOD="2002-11" OBS_VALUE="3.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="2002-10" OBS_VALUE="3.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2002-09" OBS_VALUE="3.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-0.5"/>
+            <bbk:Obs TIME_PERIOD="2002-08" OBS_VALUE="3.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.25"/>
+            <bbk:Obs TIME_PERIOD="2002-07" OBS_VALUE="3.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.25"/>
+            <bbk:Obs TIME_PERIOD="2002-06" OBS_VALUE="3.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.25"/>
+            <bbk:Obs TIME_PERIOD="2002-05" OBS_VALUE="3.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.25"/>
+            <bbk:Obs TIME_PERIOD="2002-04" OBS_VALUE="3.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.5"/>
+            <bbk:Obs TIME_PERIOD="2002-03" OBS_VALUE="3.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.5"/>
+            <bbk:Obs TIME_PERIOD="2002-02" OBS_VALUE="3.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.5"/>
+            <bbk:Obs TIME_PERIOD="2002-01" OBS_VALUE="3.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.5"/>
+            <bbk:Obs TIME_PERIOD="2001-12" OBS_VALUE="3.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.5"/>
+            <bbk:Obs TIME_PERIOD="2001-11" OBS_VALUE="3.25" BBK_DIFF_A="-0.5" BBK_DIFF_Y_A="-1.5" BBK_COMM_OBS="Mindestbietungssatz ab 14. Nov. 2001 3,25 % (Beschluss des EZB-Rates vom 8. Nov. 2001)" BBK_COMM_OBS_ENG="Minimum bid rate from 14 November 2001 3.25% (decision of the Governing Council of the ECB from 8 November 2001)"/>
+            <bbk:Obs TIME_PERIOD="2001-10" OBS_VALUE="3.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="-1.0"/>
+            <bbk:Obs TIME_PERIOD="2001-09" OBS_VALUE="3.75" BBK_DIFF_A="-0.75" BBK_DIFF_Y_A="-0.75" BBK_COMM_OBS="Mindestbietungssatz ab 5. Sept. 2001 4,25 % (Beschluss des EZB-Rates vom 30. Aug. 2001); Mindestbietungssatz ab 19. Sept. 2001 3,75 % (Beschluss des EZB-Rates vom 17. Sept. 2001)" BBK_COMM_OBS_ENG="Minimum bid rate from 5 September 2001 4.25% (decision of the Governing Council of the ECB from 30 August 2001); minimum bid rate from 19 September 2001 3.75% (decision of the Governing Council of the ECB from 17 September 2001)"/>
+            <bbk:Obs TIME_PERIOD="2001-08" OBS_VALUE="4.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.25"/>
+            <bbk:Obs TIME_PERIOD="2001-07" OBS_VALUE="4.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.25"/>
+            <bbk:Obs TIME_PERIOD="2001-06" OBS_VALUE="4.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.25"/>
+            <bbk:Obs TIME_PERIOD="2001-05" OBS_VALUE="4.5" BBK_DIFF_A="-0.25" BBK_DIFF_Y_A="0.75" BBK_COMM_OBS="Mindestbietungssatz ab 15. Mai 2001 4,50 % (Beschluss des EZB-Rates vom 10. Mai 2001)" BBK_COMM_OBS_ENG="Minimum bid rate from 15 May 2001 4.50% (decision of the Governing Council of the ECB from 10 May 2001)"/>
+            <bbk:Obs TIME_PERIOD="2001-04" OBS_VALUE="4.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.25"/>
+            <bbk:Obs TIME_PERIOD="2001-03" OBS_VALUE="4.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.25"/>
+            <bbk:Obs TIME_PERIOD="2001-02" OBS_VALUE="4.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.5"/>
+            <bbk:Obs TIME_PERIOD="2001-01" OBS_VALUE="4.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.75"/>
+            <bbk:Obs TIME_PERIOD="2000-12" OBS_VALUE="4.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.75"/>
+            <bbk:Obs TIME_PERIOD="2000-11" OBS_VALUE="4.75" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.75"/>
+            <bbk:Obs TIME_PERIOD="2000-10" OBS_VALUE="4.75" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="2.25" BBK_COMM_OBS="Mindestbietungssatz ab 11. Okt. 2000 4,75 % (Beschluss des EZB-Rates vom 5. Okt. 2000)" BBK_COMM_OBS_ENG="Minimum bid rate from 11 October 2000 4.75% (decision of the Governing Council of the ECB from 5 October 2000)"/>
+            <bbk:Obs TIME_PERIOD="2000-09" OBS_VALUE="4.5" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="2.0" BBK_COMM_OBS="Mindestbietungssatz ab 6. Sept. 2000 4,50 % (Beschluss des EZB-Rates vom 31. Aug. 2000)" BBK_COMM_OBS_ENG="Minimum bid rate from 6 September 2000 4.50% (decision of the Governing Council of the ECB from 31 August 2000)"/>
+            <bbk:Obs TIME_PERIOD="2000-08" OBS_VALUE="4.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.75"/>
+            <bbk:Obs TIME_PERIOD="2000-07" OBS_VALUE="4.25" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.75"/>
+            <bbk:Obs TIME_PERIOD="2000-06" OBS_VALUE="4.25" BBK_DIFF_A="0.5" BBK_DIFF_Y_A="1.75" BBK_COMM_OBS="Festsatz am 15. Juni und 21. Juni 4,25 %, Mindestbietungssatz ab 28. Juni 4,25 % (Beschluss des EZB-Rates vom 8. Juni 2000)" BBK_COMM_OBS_ENG="Fixed rate on 15 and 21 June 2000 4.25%, minimum bid rate from 28 June 2000 4.25% (decision of the Governing Council of the ECB from 8 June 2000)"/>
+            <bbk:Obs TIME_PERIOD="2000-05" OBS_VALUE="3.75" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="1.25" BBK_COMM_OBS="Festsatz ab 4. Mai 2000 3,75 % (Beschluss des EZB-Rates vom 27. April 2000)" BBK_COMM_OBS_ENG="Fixed rate from 4 May 2000 3.75% (decision of the Governing Council of the ECB from 27 April 2000)"/>
+            <bbk:Obs TIME_PERIOD="2000-04" OBS_VALUE="3.5" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="1.0"/>
+            <bbk:Obs TIME_PERIOD="2000-03" OBS_VALUE="3.5" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="0.5" BBK_COMM_OBS="Festsatz ab 22. März 2000 3,50 % (Beschluss des EZB-Rates vom 16. März 2000)" BBK_COMM_OBS_ENG="Fixed rate from 22 March 2000 3.50% (decision of the Governing Council of the ECB from 16 March 2000)"/>
+            <bbk:Obs TIME_PERIOD="2000-02" OBS_VALUE="3.25" BBK_DIFF_A="0.25" BBK_DIFF_Y_A="0.25" BBK_COMM_OBS="Festsatz ab 9. Febr. 2000 3,25 % (Beschluss des EZB-Rates vom 3. Febr. 2000)" BBK_COMM_OBS_ENG="Fixed rate from 9 February 2000 3.25% (decision of the Governing Council of the ECB from 3 February 2000)"/>
+            <bbk:Obs TIME_PERIOD="2000-01" OBS_VALUE="3.0" BBK_DIFF_A="0.0" BBK_DIFF_Y_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="1999-12" OBS_VALUE="3.0" BBK_DIFF_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="1999-11" OBS_VALUE="3.0" BBK_DIFF_A="0.5" BBK_COMM_OBS="Festsatz ab 10. Nov. 1999 3,00 % (Beschluss des EZB-Rates vom 4. Nov. 1999)" BBK_COMM_OBS_ENG="Fixed rate from 10 November 1999 3.00% (decision of the Governing Council of the ECB from 4 November 1999)"/>
+            <bbk:Obs TIME_PERIOD="1999-10" OBS_VALUE="2.5" BBK_DIFF_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="1999-09" OBS_VALUE="2.5" BBK_DIFF_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="1999-08" OBS_VALUE="2.5" BBK_DIFF_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="1999-07" OBS_VALUE="2.5" BBK_DIFF_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="1999-06" OBS_VALUE="2.5" BBK_DIFF_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="1999-05" OBS_VALUE="2.5" BBK_DIFF_A="0.0"/>
+            <bbk:Obs TIME_PERIOD="1999-04" OBS_VALUE="2.5" BBK_DIFF_A="-0.5" BBK_COMM_OBS="Festsatz ab 14. April 1999 2,50 % (Beschluss des EZB-Rates vom 8. April 1999)" BBK_COMM_OBS_ENG="Fixed rate from 14 April 1999 2.50% (decision of the Governing Council of the ECB from 8 April 1999)"/>
+            <bbk:Obs TIME_PERIOD="1999-03" OBS_VALUE="3.0" BBK_DIFF_A="0.0" BBK_COMM_OBS="Festsatz am 10. und 17. März 1999 3,00 % (Beschluss des EZB-Rates vom 4. März 1999); Festsatz am 24. und 31. März, 7. April 1999 3,00 % (Beschluss des EZB-Rates vom 18. März 1999)" BBK_COMM_OBS_ENG="Fixed rate on 10 and 17 March 1999 3.00% (decision of the Governing Council of the ECB from 4 March 1999); fixed rate on 24 and 31 March and 7 April 1999 3.00% (decision of the Governing Council of the ECB from 4 March 1999)"/>
+            <bbk:Obs TIME_PERIOD="1999-02" OBS_VALUE="3.0" BBK_DIFF_A="0.0" BBK_COMM_OBS="Festsatz am 10. und 17. Febr. 1999 3,00 % (Beschluss des EZB-Rates vom 4. Febr. 1999); Festsatz am 24. Febr. und 3. März 1999 3,00 % (Beschluss des EZB-Rates vom 18. Febr. 1999)" BBK_COMM_OBS_ENG="Fixed rate on 10 and 17 February 1999 3.00% (decision of the Governing Council of the ECB from 4 February 1999); fixed rate on 24 February and 3 March 1999 3.00% (decision of the Governing Council of the ECB from 18 February 1999)"/>
+            <bbk:Obs TIME_PERIOD="1999-01" OBS_VALUE="3.0" BBK_COMM_OBS="Festsatz am 7. Jan. 1999 3,00 % (Beschluss des EZB-Rates vom 22. Dez. 1998); Festsatz am 13. und 20. Jan. 1999 3,00 % (Beschluss des EZB-Rates vom 7. Jan. 1999); Festsatz am 27. Jan. und 3. Febr. 1999 3,00 % (Beschluss des EZB-Rates vom 21. Jan. 1999)" BBK_COMM_OBS_ENG="Fixed rate on 7 January 1999 3.00% (decision of the Governing Council of the ECB from 22 December 1998); fixed rate on 13 and 20 January 1999 3.00% (decision of the Governing Council of the ECB from 7 January 1999); fixed rate on 27 January and 3 February 1999 3.00% (decision of the Governing Council of the ECB from 21 January 1999)"/>
+        </bbk:Series>
+    </bbk:DataSet>
+</CompactData>
