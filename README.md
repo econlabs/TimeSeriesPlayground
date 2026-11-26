@@ -1,10 +1,12 @@
-# Moments — Time-Series Explorer
+# Time-Series Explorer for Bundesbank Rate Series
 
 Interactive **Streamlit** dashboard for exploring Bundesbank (BBK) compact-format
 XML time series. The app visualises levels, first differences, and log returns;
 computes descriptive moments; runs a battery of classical statistical tests; and
-performs **ARIMA**-family grid search with in-sample fit diagnostics — all from
+performs **ARIMA**-family grid search with in-sample fit diagnostics, all from
 the browser.
+
+![Demo: series selection, distribution, ARIMA grid search and test battery](docs/demo.gif)
 
 ---
 
@@ -33,15 +35,18 @@ the browser.
 ## Project structure
 
 ```
-Moments/
+TimeSeriesPlayground/
 ├── streamlit_app.py        # Streamlit UI (main entry point)
 ├── ts_loader.py            # XML parser for Bundesbank compact SDMX
 ├── ts_models.py            # ARIMA grid search & in-sample refit
 ├── ts_tests.py             # Statistical test battery (series + residuals)
 ├── pyproject.toml          # Package metadata & dependencies
+├── requirements.txt        # Same dependencies for plain pip installs
 ├── time_series_descriptions.txt  # English blurbs for each XML series
 ├── .streamlit/
 │   └── config.toml         # Streamlit theme overrides
+├── docs/
+│   └── demo.gif            # Screen recording shown at the top of this README
 └── data/
     ├── README.md
     ├── ecb_deposit_facility_rate_eom.xml
@@ -73,10 +78,11 @@ Optional dev dependency: **Ruff** (linter).
 ## Installation
 
 ```bash
-cd Moments
+git clone https://github.com/econlabs/TimeSeriesPlayground.git
+cd TimeSeriesPlayground
 python -m venv .venv          # or: uv venv
 source .venv/bin/activate     # Windows: .venv\Scripts\activate
-pip install -e .              # or: uv pip install -e .
+pip install -e .              # or: pip install -r requirements.txt
 ```
 
 ## Running the app
@@ -91,7 +97,7 @@ Open the URL shown in the terminal (usually `http://localhost:8501`).
 
 1. Download a Bundesbank compact-format XML file (one `<bbk:Series>` per file).
 2. Drop it into `data/`.
-3. (Optional) Add an English description to `time_series_descriptions.txt` — the sidebar will show it.
+3. (Optional) Add an English description to `time_series_descriptions.txt`; the sidebar will show it.
 
 ## Module reference
 
@@ -219,7 +225,7 @@ squares reference line $x_{(i)} = a + b\,q_i$ is added.
 
 ## 4. ARIMA-family models
 
-### 4.1 AR(p) — Autoregressive model of order p
+### 4.1 AR(p): Autoregressive model of order p
 
 $$x_t = c + \phi_1 x_{t-1} + \phi_2 x_{t-2} + \cdots + \phi_p x_{t-p} + \varepsilon_t$$
 
@@ -232,7 +238,7 @@ $$\Phi(L)\,x_t = c + \varepsilon_t \qquad\text{with}\quad \Phi(L) = 1 - \phi_1 L
 
 In the app this corresponds to **ARIMA(p, 0, 0)**.
 
-### 4.2 MA(q) — Moving-average model of order q
+### 4.2 MA(q): Moving-average model of order q
 
 $$x_t = \mu + \varepsilon_t + \theta_1\,\varepsilon_{t-1} + \cdots + \theta_q\,\varepsilon_{t-q}$$
 
@@ -243,7 +249,7 @@ $$x_t = \mu + \Theta(L)\,\varepsilon_t \qquad\text{with}\quad \Theta(L) = 1 + \t
 
 In the app: **ARIMA(0, 0, q)**.
 
-### 4.3 ARMA(p, q) — Combined autoregressive-moving-average
+### 4.3 ARMA(p, q): Combined autoregressive-moving-average
 
 $$\Phi(L)\,x_t = c + \Theta(L)\,\varepsilon_t$$
 
@@ -253,7 +259,7 @@ roots of $\Theta(L) = 0$ lie outside the unit circle.
 
 In the app: **ARIMA(p, 0, q)** with $p \geq 1$ and $q \geq 1$.
 
-### 4.4 ARIMA(p, d, q) — Autoregressive integrated moving-average
+### 4.4 ARIMA(p, d, q): Autoregressive integrated moving-average
 
 If the original series is non-stationary but its $d$-th difference is
 stationary, we write:
@@ -308,7 +314,7 @@ fit against model complexity and is optimal for **prediction**.
 $$\text{BIC} = -2\,\ell(\hat{\boldsymbol{\theta}}) + k\,\ln n$$
 
 BIC penalises additional parameters more heavily than AIC (for $n \geq 8$)
-and is consistent — i.e. it selects the true order as $n \to \infty$ (if the
+and is consistent, i.e. it selects the true order as $n \to \infty$ (if the
 true model is in the candidate set).
 
 ### 5.3 In-sample fitted values
